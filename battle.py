@@ -4,6 +4,8 @@ Course: Computational Creativity
 Name: Jimmy Song
 Date: 17 September 2024
 
+"One-Sided Pokemon Battle"
+
 This code displays a simple battle between two Pokemon: Blissey and Arceus.
 Blissey, known for having high levels of HP and special defense, will be attacked by an
 array of 5 powerful attacks from Arceus, the literal god of all Pokemon.
@@ -89,14 +91,14 @@ def main():
     battle = test_battle.generate_battle()
 
     # Read in all images
-    blissey_img = Image.open("/Users/jsong4/Downloads/Computational Creativity/CC_proj1/Images/blissey.png")
-    arceus_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/Images/arceus_normal.png')
-    flamethrower_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/Images/Arceus_Flamethrower.webp')
-    judgement_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/Images/Arceus_judgement.png')
-    splash_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/Images/Arceus_splash.jpeg')
-    dracometeor_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/Images/Arceus_dracometeor.png')
-    win_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/Images/happy_blissey.jpeg')
-    loss_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/Images/sad_blissey.jpg')
+    blissey_img = Image.open("/Users/jsong4/Downloads/Computational Creativity/CC_proj1/assets/blissey.png")
+    arceus_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/assets/arceus_normal.png')
+    flamethrower_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/assets/Arceus_Flamethrower.webp')
+    judgement_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/assets/Arceus_judgement.png')
+    splash_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/assets/Arceus_splash.jpeg')
+    dracometeor_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/assets/Arceus_dracometeor.png')
+    win_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/assets/happy_blissey.jpeg')
+    loss_img = Image.open('/Users/jsong4/Downloads/Computational Creativity/CC_proj1/assets/sad_blissey.jpg')
 
     # Create a figure and axes -- columns equal to number of attacks used + 3,
     # to include the opening Pokemon selection and final result images
